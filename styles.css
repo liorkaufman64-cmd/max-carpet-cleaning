@@ -1,0 +1,7 @@
+body {font-family: Arial, sans-serif; margin:0; padding:0;}
+.topbar {background:#0a84ff; color:white; padding:10px;}
+.topbar a {color:white; text-decoration:none;}
+.hero {padding:40px; background:#f2f9ff;}
+.btn {display:inline-block; margin:6px; padding:10px 16px; background:#0a84ff; color:white; border-radius:6px;}
+.btn.outline {background:white; color:#0a84ff; border:1px solid #0a84ff;}
+.footer {background:#222; color:#eee; padding:20px; text-align:center;}
