@@ -1,7 +1,51 @@
-body {font-family: Arial, sans-serif; margin:0; padding:0;}
-.topbar {background:#0a84ff; color:white; padding:10px;}
-.topbar a {color:white; text-decoration:none;}
-.hero {padding:40px; background:#f2f9ff;}
-.btn {display:inline-block; margin:6px; padding:10px 16px; background:#0a84ff; color:white; border-radius:6px;}
-.btn.outline {background:white; color:#0a84ff; border:1px solid #0a84ff;}
-.footer {background:#222; color:#eee; padding:20px; text-align:center;}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fff;
+  color: #0d1321;
+}
+.container { width: min(1100px, 92%); margin: 0 auto; }
+
+.nav {
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+.nav-inner { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; }
+.brand strong { font-size: 18px; }
+.brand small { color: #666; display: block; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #0a84ff;
+  margin: 4px;
+}
+.btn.primary { background: #0a84ff; color: #fff; }
+.btn.ghost { background: #fff; color: #0a84ff; }
+.btn.whatsapp { background: #25D366; color: #fff; border-color: #25D366; }
+.btn.xlarge { font-size: 18px; padding: 14px 22px; }
+
+.hero { background: #f2f9ff; padding: 50px 0; text-align: center; }
+.hero h1 { font-size: 36px; margin-bottom: 12px; }
+.hero .lead { color: #333; margin-bottom: 20px; }
+.cta-row { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+
+.services { padding: 40px 0; background: #fff; }
+.services h2 { text-align: center; margin-bottom: 20px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.card { border: 1px solid #eee; border-radius: 10px; padding: 16px; background: #fafafa; }
+
+.reviews { padding: 40px 0; background: #fbfdff; text-align: center; }
+.reviews blockquote { background: #f8f8f8; border-radius: 8px; padding: 16px; margin: 10px auto; max-width: 500px; }
+
+.cta-final { background: #eef6ff; text-align: center; padding: 40px 0; }
+.cta-final h2 { margin-bottom: 16px; }
+
+.footer { background: #0d1321; color: #e6edf6; text-align: center; padding: 20px 0; }
+.copy { font-size: 14px; color: #aab4c3; margin-top: 8px; }
